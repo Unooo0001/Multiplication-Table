@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Multiplication Table</title>
+		<!-- Using Style for adjusting Design color and layout -->.
+		<style>
+			body{
+				background-color: gray;
+			}
+			table{
+				color: rgb(235, 227, 232); 
+				
+				border: 5px solid rgb(20, 15, 10); 
+				border-collapse: collapse;
+				
+			}
+			td{
+				padding: 15px; 
+				text-align: center;
+			}
+			th{
+				font-size: 25px
+			}
+			.bold{
+				font-weight: bold; 
+				font-size: 20px
+			}
+			p{
+				padding: 15px;
+				position:absolute;	
+				text-align: center;				
+			}
+		</style>
+	</head>
+
+
+
+<!-- This is the body of multiplication Table -->.
+	<body>
+		<table border="1px";>
+			<thead>
+
+				<tr>
+				<p><h1> Mark | Angelo | Gonzales</h1></p>	
+				</tr>
+				<tr>
+					<!-- Using Colspan  -->.
+					<th colspan="6">My Multiplication Table</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="bold">
+					<th>X</th>
+					<th>5</th>
+					<th>12</th>
+					<th>13</th>
+					<th>15</th>
+					<th>19</th>
+				</tr>	
+				<tr>
+					<td class="bold">5</td>
+					<td>25</td>
+					<td>60</td>
+					<td>65</td>
+					<td>75</td>
+					<td>95</td>				
+				</tr>
+			
+				<tr>
+						<td class="bold">12</td>
+						<td>60</td>
+						<td>144</td>
+						<td>156</td>
+						<td>180</td>
+						<td>228</td>				
+				</tr>
+			
+				<tr>
+						<td class="bold">13</td>
+						<td>65</td>
+						<td>156</td>
+						<td>169</td>
+						<td>195</td>
+						<td>247</td>				
+				</tr>
+			
+				<tr>
+						<td class="bold">15</td>
+						<td>75</td>
+						<td>180</td>
+						<td>195</td>
+						<td>255</td>
+						<td>285</td>		
+				</tr>
+			
+				<tr>
+						<td class="bold">19</td>
+						<td>95</td>
+						<td>228</td>
+						<td>247</td>
+						<td>285</td>
+						<td>361</td>								
+				</tr>	
+
+				<!-- Using rowspan for the I choosing 5 letters -->.
+				<tr>
+					<th rowspan="2">Let#</th>
+					<td>M</td>
+					<td>E</td>
+					<td>L</td>
+					<td>O</td>
+					<td>S</td>								
+			</tr>			
+			<tr>		
+					<td>13</td>
+					<td>5</td>
+					<td>12</td>
+					<td>15</td>
+					<td>19</td>							
+			</tr>			
+			</table>
+		</tbody>
+	</body>
+</html>
